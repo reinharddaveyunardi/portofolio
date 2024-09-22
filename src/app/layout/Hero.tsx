@@ -23,9 +23,9 @@ function Hero() {
     return (
         <div className="w-full h-screen bg-black text-white">
             <div>
-                {me.map((my) => {
+                {me.map((my, index) => {
                     return (
-                        <div key={my.name} className="flex flex-col gap-2 justify-center items-center h-screen">
+                        <div key={index} className="flex flex-col gap-2 justify-center items-center h-screen">
                             <div>
                                 <BlurIn word={`I'm ${my.name}`} />
                             </div>
