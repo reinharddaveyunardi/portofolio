@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import { skills } from "@/data/data";
 import { cn } from "@/lib/utils";
 import Marquee from "@/components/magicui/marquee";
