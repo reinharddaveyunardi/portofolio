@@ -6,8 +6,6 @@ import { FaInstagram, FaLinkedin, FaGithub, FaQuestion } from "react-icons/fa";
 import BlurIn from "@/components/magicui/blur-in";
 import WordPullUp from "@/components/magicui/word-pull-up";
 import GradualSpacing from "@/components/magicui/gradual-spacing";
-import WordFadeIn from "@/components/magicui/word-fade-in";
-
 const getLinkIcon = (linkName: string) => {
     switch (linkName) {
         case "Github":
