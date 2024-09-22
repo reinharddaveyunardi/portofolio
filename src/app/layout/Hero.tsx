@@ -33,9 +33,9 @@ function Hero() {
                                 <WordPullUp words={my.description} />
                             </div>
                             <motion.div initial={{ opacity: 0, y: 3 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 2.5 }} className="flex gap-4">
-                                {links.map((link) => {
+                                {links.map((link,index) => {
                                     return (
-                                        <a href={link.url} className="">
+                                        <a key={index} href={link.url} className="">
                                             {getLinkIcon(link.name)}
                                         </a>
                                     );
