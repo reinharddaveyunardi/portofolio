@@ -24,7 +24,10 @@ export const TextRevealByWord: FC<TextRevealByWordProps> = ({
     return (
         <div
             ref={targetRef}
-            className={cn("relative z-0 h-[200vh] text-white", className)}
+            className={cn(
+                "relative z-0 h-[200vh] text-white justify-center",
+                className
+            )}
         >
             <div
                 className={
@@ -34,7 +37,7 @@ export const TextRevealByWord: FC<TextRevealByWordProps> = ({
                 <p
                     ref={targetRef}
                     className={
-                        "flex flex-wrap text-center p-5 text-2xl font-bold text-black/20 dark:text-white md:p-8 md:text-3xl lg:p-10 lg:text-4xl xl:text-5xl"
+                        "flex flex-wrap text-center w-full p-5 text-2xl font-bold text-black/20 dark:text-white md:p-8 md:text-3xl lg:p-10 lg:text-4xl xl:text-5xl"
                     }
                 >
                     {words.map((word, i) => {

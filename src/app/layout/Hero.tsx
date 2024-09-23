@@ -5,7 +5,6 @@ import {motion} from "framer-motion";
 import {FaInstagram, FaLinkedin, FaGithub, FaQuestion} from "react-icons/fa";
 import BlurIn from "@/components/magicui/blur-in";
 import WordPullUp from "@/components/magicui/word-pull-up";
-import GradualSpacing from "@/components/magicui/gradual-spacing";
 const getLinkIcon = (linkName: string) => {
     switch (linkName) {
         case "Github":
