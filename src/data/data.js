@@ -105,6 +105,7 @@ export const projects = [
             <SiHtml5 color="#E46947" />,
             <SiTailwindcss color="#0EA5E9" />,
             <SiNextdotjs />,
+            <SiTypescript color="#3178C6" />,
         ],
     },
     {
@@ -118,6 +119,7 @@ export const projects = [
             <SiHtml5 color="#E46947" />,
             <SiTailwindcss color="#0EA5E9" />,
             <SiNextdotjs />,
+            <SiTypescript color="#3178C6" />,
         ],
     },
 ];
