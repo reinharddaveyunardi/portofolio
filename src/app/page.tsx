@@ -8,7 +8,6 @@ export default function Home() {
         <div>
             <Hero />
             <Skills />
-            <Goals />
             <Projects />
             <Footer />
         </div>
